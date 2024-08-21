@@ -1,0 +1,40 @@
+[0.008s] Invoking command in '/home/ju/dev_ws/build/mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ju/dev_ws/src/mobile_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ju/dev_ws/install/mobile_robot
+[0.027s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.145s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.155s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[0.156s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.205s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.208s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.208s] -- Added test 'lint_cmake' to check CMake code style
+[0.209s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.210s] -- Added test 'xmllint' to check XML markup files
+[0.212s] -- Configuring done
+[0.214s] -- Generating done
+[0.215s] -- Build files have been written to: /home/ju/dev_ws/build/mobile_robot
+[0.219s] Invoked command in '/home/ju/dev_ws/build/mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ju/dev_ws/src/mobile_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ju/dev_ws/install/mobile_robot
+[0.220s] Invoking command in '/home/ju/dev_ws/build/mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ju/dev_ws/build/mobile_robot -- -j20 -l20
+[0.280s] Invoked command in '/home/ju/dev_ws/build/mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ju/dev_ws/build/mobile_robot -- -j20 -l20
+[0.328s] Invoking command in '/home/ju/dev_ws/build/mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ju/dev_ws/build/mobile_robot
+[0.339s] -- Install configuration: ""
+[0.340s] -- Execute custom install script
+[0.340s] -- Symlinking: /home/ju/dev_ws/install/mobile_robot/share/mobile_robot/config/empty.yaml
+[0.359s] -- Symlinking: /home/ju/dev_ws/install/mobile_robot/share/mobile_robot/description/robot.urdf.xacro
+[0.372s] -- Symlinking: /home/ju/dev_ws/install/mobile_robot/share/mobile_robot/description/robot_core.xacro
+[0.385s] -- Symlinking: /home/ju/dev_ws/install/mobile_robot/share/mobile_robot/launch/rsp.launch.py
+[0.403s] -- Symlinking: /home/ju/dev_ws/install/mobile_robot/share/mobile_robot/worlds/empty.world
+[0.414s] -- Symlinking: /home/ju/dev_ws/install/mobile_robot/share/ament_index/resource_index/package_run_dependencies/mobile_robot
+[0.426s] -- Symlinking: /home/ju/dev_ws/install/mobile_robot/share/ament_index/resource_index/parent_prefix_path/mobile_robot
+[0.438s] -- Symlinking: /home/ju/dev_ws/install/mobile_robot/share/mobile_robot/environment/ament_prefix_path.sh
+[0.447s] -- Symlinking: /home/ju/dev_ws/install/mobile_robot/share/mobile_robot/environment/ament_prefix_path.dsv
+[0.454s] -- Symlinking: /home/ju/dev_ws/install/mobile_robot/share/mobile_robot/environment/path.sh
+[0.462s] -- Symlinking: /home/ju/dev_ws/install/mobile_robot/share/mobile_robot/environment/path.dsv
+[0.470s] -- Symlinking: /home/ju/dev_ws/install/mobile_robot/share/mobile_robot/local_setup.bash
+[0.481s] -- Symlinking: /home/ju/dev_ws/install/mobile_robot/share/mobile_robot/local_setup.sh
+[0.490s] -- Symlinking: /home/ju/dev_ws/install/mobile_robot/share/mobile_robot/local_setup.zsh
+[0.505s] -- Symlinking: /home/ju/dev_ws/install/mobile_robot/share/mobile_robot/local_setup.dsv
+[0.517s] -- Symlinking: /home/ju/dev_ws/install/mobile_robot/share/mobile_robot/package.dsv
+[0.529s] -- Symlinking: /home/ju/dev_ws/install/mobile_robot/share/ament_index/resource_index/packages/mobile_robot
+[0.546s] -- Symlinking: /home/ju/dev_ws/install/mobile_robot/share/mobile_robot/cmake/mobile_robotConfig.cmake
+[0.559s] -- Symlinking: /home/ju/dev_ws/install/mobile_robot/share/mobile_robot/cmake/mobile_robotConfig-version.cmake
+[0.572s] -- Symlinking: /home/ju/dev_ws/install/mobile_robot/share/mobile_robot/package.xml
+[0.595s] Invoked command in '/home/ju/dev_ws/build/mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ju/dev_ws/build/mobile_robot
